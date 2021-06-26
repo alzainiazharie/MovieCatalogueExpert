@@ -36,10 +36,16 @@ android {
     buildFeatures{
         viewBinding = true
     }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
     dynamicFeatures = [':favorite']
 }
 dependencies {
     implementation project(":core")
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.4'
 }
