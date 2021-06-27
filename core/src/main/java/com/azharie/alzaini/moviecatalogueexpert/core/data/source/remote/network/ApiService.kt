@@ -8,7 +8,7 @@ interface ApiService {
     companion object{
         const val API_KEY = "a162d32c91ae5973f6a11863f1331df6"
     }
-    @GET("movie/popular?api_key=$API_KEY")
+    @GET("3/movie/popular?api_key=$API_KEY")
     suspend fun getListPopularMovies(
         @Query("page") position: Int
     ): ListMoviesResponse
