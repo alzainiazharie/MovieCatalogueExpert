@@ -7,6 +7,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_movie_favorite"
+        android:background="@color/light_blue"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:padding="4dp"
