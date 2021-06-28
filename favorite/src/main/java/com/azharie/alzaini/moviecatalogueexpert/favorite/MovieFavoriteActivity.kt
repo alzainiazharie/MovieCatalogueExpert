@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.azharie.alzaini.moviecatalogueexpert.core.ui.MovieAdapterFavorite
 import com.azharie.alzaini.moviecatalogueexpert.detail.DetailMovieActivity
 import com.azharie.alzaini.moviecatalogueexpert.favorite.databinding.ActivityMovieFavoriteBinding
-import com.azharie.alzaini.moviecatalogueexpert.core.ui.MovieAdapterFavorite
 import com.azharie.alzaini.moviecatalogueexpert.favorite.di.favoriteModule
 import org.koin.android.viewmodel.ext.android.viewModel
 import org.koin.core.context.loadKoinModules
